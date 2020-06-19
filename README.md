@@ -28,23 +28,6 @@
 
         click the project link, which goes to your website's landing page  (Movie List Page).
 
-
-- # Connection Pooling
-    - #### Include the filename/path of all code/configuration files in GitHub of using JDBC Connection Pooling.
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/CartServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/ConfirmServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/EmployeeLogin.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/GenreServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/GuidedSearchServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/LoginServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/MetaDataServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/MovieInsertServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/MovieServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/PayServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/SearchResultsServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/SingleActorServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/SingleMovieServlet.java
-    
     - #### Explain how Connection Pooling is utilized in the Fabflix code.
     
     Connection pooling is utilized by our fablflix code to prevent an issue we where facing before in regards to query speed       and servlet time. By using connection pooling, our code reuses the same connections already instantiated in our code. The     context.xml defined as shown.
@@ -67,10 +50,6 @@
     master instance will use the master mysql backend connection pool.
     
 - # Master/Slave
-    - #### Include the filename/path of all code/configuration files in GitHub of routing queries to Master/Slave SQL.
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/ConfirmServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/MovieInsertServlet.java
-    https://github.com/UCI-Chenli-teaching/cs122b-spring20-team-21/blob/master/Web/src/ActorInsertServlet.java
     
     - #### How read/write requests were routed to Master/Slave SQL?
     Manually entered ip of the master instance for every place a write request would be generated to the backend. I.E   
