@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>METADATA</title>
+    <!-- Required meta tags -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title> </title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstr    ap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+
+<div class="navBar">
+    <a class="active" href="dashboard.html" id="navBarA">Back to DashBoard</a>
+    <!--    PLEASE CHANGE THIS LATER-->
+    <div id="navBarLeft">
+        <a href = "login.html" id="navBarA" onclick="handleLogout();">Logout</a>
+    </div>
+</div>
+
+
+<div id="frontPageHeader">
+    <h1><img src = "./fabflix.png" id= logo draggable = "false" ></h1>
+    <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>
+    <div id="loggedInAs">
+        logged in as: <span id="usernameM"></span>
+    </div>
+    <h1 id = top20>MOVIEDB METADATA</h1>
+</div>
+
+<table id=metaData_table class="table">
+    <thead>
+    <tr class="tableColumns">
+        <th>Table Name</th>
+        <th>Data Types</th>
+    </tr> 
+    </thead>
+    <tbody id=metaData_table_body> </tbody>
+</table>
+
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="metadata.js"></script>
+
+</body>
+</html>

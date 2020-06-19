@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <title id=movie_title></title>
+</head>
+
+<div class="navBar">
+    <a class="active" href="index.html" id="navBarA">Home</a>
+    <a href="search.html" id="navBarA">Search</a>
+    <!--    PLEASE CHANGE THIS LATER-->
+    <div id="navBarLeft">
+        <a href="cart.html" id="navBarA">
+            <img src="./cart.png" id="cart">
+        </a>
+        <a href = "login.html" id="navBarA" onclick="handleLogout();">Logout</a>
+    </div>
+</div>
+
+<div id="frontPageHeader">
+    <h1><img src = "./fabflix.png" id= logo draggable = "false" ></h1>
+    <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>
+
+</div>
+
+
+
+<body>
+
+<div id="singleMovieInfo">
+<h2 id=movie_title_header></h2>
+<h3 id=movie_year></h3>
+<h4 id=movie_director></h4>
+<h5 id=movie_ratings></h5>
+<h6 id=movie_genres></h6>
+    <h7 class = "boxed" id="orderMovie"></h7>
+</div>
+
+<table id=single_movie_table class="table">
+     <thead>
+        <tr class="tableColumns">
+            <th>Actors</th>
+        </tr>
+     </thead>
+        <tbody id=single_movie_table_body></tbody>
+</table>
+<button id = "moviesPage" type="button" class="btn btn-dark">Go back to Search Results</button>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="single-movie.js"></script>
+</body>
+
+
+</html>

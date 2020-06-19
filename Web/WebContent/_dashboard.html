@@ -1,0 +1,45 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en" id="employeeHtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Login to Fablix</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstr    ap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body id="emploginBody">
+<!-- Set the method to POST to avoid showing the username/password in the URL
+     The default action is disabled to allow your own implementation. -->
+
+<div class="emploginDiv">
+
+    <div id="frontPageHeader">
+        <h1><img src = "./fabflix.png" id= "loginLogo" draggable = "false" ></h1>
+        <!--        <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>-->
+
+    </div>
+    <div>EMPLOYEE LOGIN</div>
+
+    <form id="emplogin_form" method="post" action="#">
+        <label>
+            <input name="username" placeholder="Email" type="text" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="password" placeholder="Password" type="password" class="loginInput">
+        </label>
+        <br>
+        <input type="submit" value="Sign In" class="loginInput" id="loginSubmit">
+    </form>
+    <div id="emplogin_error_message"></div>
+</div>
+
+<!-- include jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- include our own JS file -->
+<script src="_dashboard.js"></script>
+
+</body>
+</html>

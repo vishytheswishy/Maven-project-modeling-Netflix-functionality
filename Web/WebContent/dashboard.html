@@ -1,0 +1,89 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<!--<div class="navBar">-->
+<!--    <a class="active" href="index.html" id="navBarA">Home</a>-->
+<!--    <a href="search.html" id="navBarA">Search</a>-->
+<!--    <div id="navBarLeft">-->
+<!--        <a href="cart.html" id="navBarA">-->
+<!--            <img src="./cart.png" id="cart">-->
+<!--        </a>-->
+<!--        <a href = "login.html" id="navBarA" onclick="handleLogout();">Logout</a>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div id="frontPageHeader">
+    <h1><img src = "./fabflix.png" id= logo draggable = "false" ></h1>
+    <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>
+</div>
+
+
+
+<body>
+<button id = "metaData" type="button" class="btn btn-dark">Access MetaData</button>
+
+<div class="dashboardDiv">
+    <h2 id="SearchHeader">Dashboard</h2>
+
+    <form id="insert_actor" method="post" action="#">
+        <label>
+            <input name="actor_name" placeholder="Actor Name" type="text" id="actor_name" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="actor_dob" placeholder="Actor Birth Year" type="number" id ="actor_dob" class="loginInput">
+        </label>
+        <br>
+        <input type="submit" value="Insert Actor into Database" class="loginInput" id="searchSubmit">
+    </form>
+
+    <br>
+    <br>
+
+    <form id="movie_insert" method="post" action="#">
+        <label>
+            <input name="movie_title" placeholder="Movie Title" type="text" id="movie_title" class="loginInput" required>
+        </label>
+        <br>
+        <label>
+            <input name="movie_year" placeholder="Movie Year" type="number" id ="movie_year" class="loginInput" required>
+        </label>
+        <br>
+        <label>
+            <input name="movie_director" placeholder="Movie Director" type="text" id ="movie_director" class="loginInput" required>
+        </label>
+        <br>
+        <label>
+            <input name="actor_name" placeholder="Actor Name" type="text" id ="movieActor_name" class="loginInput" required>
+        </label>
+        <br>
+        <label>
+            <input name="actor_dob" placeholder="Actor Birth Date" type="number" id ="actor_dob" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="movie_genre" placeholder="Movie Genre" type="text" id ="movie_genre" class="loginInput" required>
+        </label>
+        <br>
+        <label>
+        <input type="submit" value="Add Movie" class="loginInput" id="addMovieSubmit">
+        </label>
+    </form>
+    <div id="movie_insert_error_message"></div>
+    </div>
+</div>
+<!-- include jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- include our own JS file -->
+<script src="dashboard.js"></script>
+</body>
+</html>

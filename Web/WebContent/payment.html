@@ -1,0 +1,63 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en" id="loginHtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstr    ap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+
+<div class="navBar">
+    <a class="active" href="index.html" id="navBarA">Home</a>
+    <a href="search.html" id="navBarA">Search</a>
+    <div id="navBarLeft">
+        <a href="cart.html" id="navBarA">
+            <img src="./cart.png" id="cart">
+        </a>
+        <a href = "login.html" id="navBarA" onclick="handleLogout();">Logout</a>
+    </div>
+</div>
+
+<div id="frontPageHeader">
+    <h1><img src = "./fabflix.png" id= logo draggable = "false" ></h1>
+    <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>
+</div>
+
+
+<body>
+<div id="total_cost"></div>
+
+<div>
+    <form id="paymentInfo" method="post" action="#">
+        <label>
+            <input name="firstName" placeholder="Enter First Name" type="text" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="lastName" placeholder="Enter Last Name" type="text" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="creditCard" placeholder="Enter Credit Card" type="text" class="loginInput">
+        </label>
+        <br>
+        <label>
+            <input name="expirationDate" placeholder="Enter Expiration Date" type="text" class="loginInput">
+        </label>
+        <br>
+        <input type="submit" value="Pay" class="loginInput" id="loginSubmit">
+    </form>
+    <div id="payment_error_message"></div>
+</div>
+
+<!-- include jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- include our own JS file -->
+<script src="payment.js"></script>
+
+</body>
+</html>

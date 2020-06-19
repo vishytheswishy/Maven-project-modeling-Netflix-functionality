@@ -1,0 +1,4 @@
+#Sun May 24 19:15:33 PDT 2020
+base.0=/Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

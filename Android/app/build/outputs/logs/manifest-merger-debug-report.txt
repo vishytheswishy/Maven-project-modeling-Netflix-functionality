@@ -1,0 +1,192 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/AndroidManifest.xml:14:4-17:12
+MERGED from [com.google.android.gms:play-services-safetynet:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/62ce7322713a76d3b4b936056e32e704/play-services-safetynet-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/fbb229900b5c91cd26917a7cf4a838d0/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/017dd17be03bd13690e1981fba903d62/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:3:11-46
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/62ce7322713a76d3b4b936056e32e704/play-services-safetynet-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/62ce7322713a76d3b4b936056e32e704/play-services-safetynet-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/fbb229900b5c91cd26917a7cf4a838d0/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/fbb229900b5c91cd26917a7cf4a838d0/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/017dd17be03bd13690e1981fba903d62/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/017dd17be03bd13690e1981fba903d62/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:9:13-45
+	android:icon
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:8:13-47
+	android:allowBackup
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:7:13-39
+	android:theme
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:12:13-44
+	android:usesCleartextTraffic
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:11:13-48
+activity#edu.uci.ics.fabflixmobile.Login
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:15:17-38
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:20:27-74
+activity#edu.uci.ics.fabflixmobile.ListViewActivity
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:23:9-63
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:23:19-51
+activity#edu.uci.ics.fabflixmobile.SearchActivity
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:24:19-49
+activity#edu.uci.ics.fabflixmobile.SingleMovieActivity
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:25:19-54
+uses-library#org.apache.http.legacy
+ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:27:9-87
+	android:required
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:27:61-85
+	android:name
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml:27:23-60
+uses-sdk
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/62ce7322713a76d3b4b936056e32e704/play-services-safetynet-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/62ce7322713a76d3b4b936056e32e704/play-services-safetynet-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/fbb229900b5c91cd26917a7cf4a838d0/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/fbb229900b5c91cd26917a7cf4a838d0/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/017dd17be03bd13690e1981fba903d62/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/017dd17be03bd13690e1981fba903d62/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/8044c2de5e49ff621cbe8b0fc04ea73c/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1fcdd0fa5d25c72b5392566c7b29e261/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/a46357e58911200f3ee2624c3dd9e1f1/support-media-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/990b8197fbea3db6625c4fee119ab064/support-fragment-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/957a6acf1ef9cf09219329885868d3fa/support-core-utils-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/eea17a44bb1ecc0f748bda344771eaf3/support-core-ui-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/1a4c91351a6d48c1c98ce9067aef4a42/support-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/c3e3bef8a3012dd338bddeeb7215406b/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/21dd583c67d0392d05e5f9ec6b127a8d/runtime-1.0.0/AndroidManifest.xml:26:13-58

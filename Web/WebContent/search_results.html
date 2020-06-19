@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Movies List Page</title>
+    <!-- Required meta tags -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstr    ap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script src='search_results.js'> </script>
+</head>
+
+<div class="navBar">
+    <a class="active" href="index.html" id="navBarA">Home</a>
+    <a href="search.html" id="navBarA">Search</a>
+    <!--    PLEASE CHANGE THIS LATER-->
+    <div id="navBarLeft">
+        <a href="cart.html" id="navBarA">
+            <img src="./cart.png" id="cart">
+        </a>
+        <a href = "login.html" id="navBarA" onclick="handleLogout();">Logout</a>    </div>
+</div>
+<div id="frontPageHeader">
+    <h1><img src = "./fabflix.png" id= logo draggable = "false" ></h1>
+    <h2><img src = "./CreatorHeader.png" id = credits draggable = "false"> </h2>
+    <h1 id = top20>SEARCH RESULTS</h1>
+</div>
+
+
+<body>
+<div class="searchOptions">
+    <h id="OrderHeader">Order By:</h>
+    <a href="javascript:rankASC()" id="rankASC_bttn">RANK ↑</a>
+    <a  href="javascript:rankDESC()" id="rankDESC_bttn">RANK ↓</a>
+    <a  href="javascript:titleASC()" id="titleASC_bttn">TITLE ↑</a>
+    <a href="javascript:titleDESC()" id="titleDESC_bttn">TITLE ↓</a>
+    <div id ="noResults"> </div>
+</div>
+
+
+<table id=search_table class="table">
+    <thead>
+    <tr class="tableColumns">
+        <th>Movie Title</th>
+        <th>Year</th>
+        <th>Director</th>
+        <th>Genre</th>
+        <th>Actors</th>
+        <th>Rating</th>
+        <th>Purchase</th>
+    </tr> 
+    </thead>
+    <tbody id=search_table_body>
+    </tbody>
+</table>
+<!--<div>-->
+<!--    results: <span id="results"></span>-->
+<!--</div>-->
+<div id="listingTable"></div>
+<a href="javascript:beforePage()" id="prev_bttn">Previous</a>
+<a href="javascript:advPage()" id="adv_bttn">Next</a>
+<div>
+    page: <span id="page"></span>
+</div>
+
+<div>
+    <label>Choose N: </label>
+    <select id="choose_N" onchange='onChange()'>
+        <option value="" disabled="disabled" selected="selected">Please select a value</option>
+        <option value="100">100</option>
+        <option value="50">50</option>
+        <option value="25">25</option>
+        <option value="10">10</option>
+    </select>
+</div>
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="search_results.js"></script>
+
+</body>
+</html>

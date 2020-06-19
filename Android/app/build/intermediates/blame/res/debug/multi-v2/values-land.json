@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vishaalyalamanchali/Desktop/CS122bProjectChenLi /Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/vishaalyalamanchali/.gradle/caches/transforms-2/files-2.1/5d7dd0ec45080e30f6f7ebae9fda739a/appcompat-v7-21.0.3/res/values-land/values.xml",
+                    "from": {
+                        "startLines": "3,4,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "56,118,191,261,331,395,466",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "113,185,256,326,390,461,529"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,329,393,464",
+                        "endColumns": "61,71,69,69,63,70,67",
+                        "endOffsets": "112,184,254,324,388,459,527"
+                    }
+                }
+            ]
+        }
+    ]
+}
