@@ -1,9 +1,6 @@
-- # PROJECT 5 DEPLOYMENT AND INSTRUCTIONS
-    - #### Team#: 21
-    
-    - #### Names: Vishaal Yalamanchali & Giorgio Atanasov
-     
-    - #### Project 5 Video Demo Link: https://www.youtube.com/watch?v=8pmdW6Tm0KA
+- # DEPLOYMENT AND INSTRUCTIONS
+
+    - #### Video Demo Link: https://www.youtube.com/watch?v=8pmdW6Tm0KA
 
     - #### Instruction of deployment: 
     to run this program make sure you have tomcat 8.5.53 , mysql 5.7 installed on both your development machine and      
@@ -30,10 +27,6 @@
         refresh the tomcat manager page. You should see a new project (just deployed): project 1.
 
         click the project link, which goes to your website's landing page  (Movie List Page).
-
-    - #### Collaborations and Work Distribution:
-    Giorgio Atanasov: - finished setting up AWS Master/Slave instances, created connection pooling in all servlets
-    Vishaal Yalamanchali - did jmeter testing, google cloud instance
 
 
 - # Connection Pooling
