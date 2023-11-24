@@ -49,9 +49,9 @@
     Connection pooling with two MySQL backends works by using the same instance that the load balancer directs to for read         requests. For example the slave instance will use the slave mysql backend connection pool to make read requests and the  
     master instance will use the master mysql backend connection pool.
     
-- # Master/Slave
+- # Writer/Reader
     
-    - #### How read/write requests were routed to Master/Slave SQL?
+    - #### How read/write requests were routed to each Writer/Reader SQL instance?
     Manually entered ip of the master instance for every place a write request would be generated to the backend. I.E   
     ActorInsertServlet.java
     String loginUser = "mytestuser";
